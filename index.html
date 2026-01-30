@@ -7,9 +7,28 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Federico Pozzi</h1>ù
-    <h3>Insegnate a Immaginazione</h3>
-    <p>Questo è un sito di prova</p>
-    <button>Clicca qui</button>
+    <div id="verde"></div>
+    <button onclick="cambia()">Clicca qui</button>
+
+    <!-- creo paragrafi che andranno riempiti con js -->
+    <p id="cognome"></p>
+    <p id="eta"></p>
+    <p id="casa"></p>
+
+    <!-- creo campi di input per cambiare le informazioni che ci sono sopra -->
+    <label>
+        Cognome: <input type="text" id="inCognome" placeholder="Cognome">
+    </label>
+    <label>
+        Età: <input type="number" id="inEta" placeholder="Età">
+    </label>
+    <label>
+        Residenza: <input type="text" id="inCasa" placeholder="Residenza">
+    </label>
+
+    <button onclick="aggiornaOggetto()">Aggiorna dati</button>
+
+    <!-- collegamento allo script  -->
+    <script src="./script.js"></script>
 </body>
 </html>

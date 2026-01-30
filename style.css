@@ -2,4 +2,15 @@ button {
     background-color: crimson;
     color: white;
     border: none;
+    padding: 10px 30px;
+    border-radius: 50px; /* bordi rotondi */
+    cursor: pointer;
 }
+
+#verde {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 2vh;
+}
+
